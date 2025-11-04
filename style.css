@@ -1,0 +1,121 @@
+/* ====== Global Styles ====== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #e8f0ff, #ffffff);
+  margin: 0;
+  padding: 0;
+  color: #2d3436;
+}
+
+/* ====== Container ====== */
+.container {
+  max-width: 950px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+/* ====== Header ====== */
+header {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dfe6e9;
+}
+
+h1 {
+  margin: 0;
+  color: #0984e3;
+  font-size: 28px;
+}
+
+.subtext {
+  font-size: 15px;
+  color: #636e72;
+}
+
+/* ====== Sections ====== */
+.patient-info, .diagnosis, .chart-section {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #2d3436;
+  border-left: 4px solid #0984e3;
+  padding-left: 10px;
+}
+
+/* ====== Info Box ====== */
+.info-box {
+  background: #f1f5ff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #dfe6e9;
+  line-height: 1.6;
+  transition: background 0.3s ease-in-out;
+}
+
+.info-box:hover {
+  background: #eaf2ff;
+}
+
+/* ====== Diagnosis List ====== */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f9fafc;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #dcdde1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out, background 0.3s;
+}
+
+ul li:hover {
+  transform: translateY(-2px);
+  background: #eef6ff;
+}
+
+/* ====== Chart ====== */
+canvas {
+  width: 100% !important;
+  height: 340px !important;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* ====== Footer ====== */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #636e72;
+  border-top: 1px solid #dfe6e9;
+  padding-top: 10px;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}

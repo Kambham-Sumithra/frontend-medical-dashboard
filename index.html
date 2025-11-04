@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient Dashboard - Jessica Taylor</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Patient Dashboard</h1>
+      <p class="subtext">Monitoring Patient Health Data</p>
+    </header>
+
+    <section class="patient-info">
+      <h2>Patient Information</h2>
+      <div id="patientDetails" class="info-box"></div>
+    </section>
+
+    <section class="diagnosis">
+      <h2>Diagnosis History</h2>
+      <ul id="diagnosisList"></ul>
+    </section>
+
+    <section class="chart-section">
+      <h2>Blood Pressure Trends (Yearly)</h2>
+      <canvas id="bpChart"></canvas>
+    </section>
+
+    <footer>
+      <p>© 2025 Patient Data Dashboard | Built by <strong>Kambham Sumithra</strong></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
